@@ -1,0 +1,240 @@
+
+.container-fluid{
+    width: 100%;
+}
+
+.homeFirst{
+    height: 30px;
+    padding-top: 1px;
+}
+.shopcss{
+ color: #000;
+font-family: Integral CF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.navbar{
+    height: 70px;
+}
+.search{
+    width: 500px;
+    border-radius: 10px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+}
+
+.advert{
+    padding-top:15%;
+    padding-left: 5%;
+    
+    background-size: cover;
+    
+}
+.text{
+   font-size: 2rem;
+}
+
+.newArrivals{
+    color: #000;
+    text-align: center;
+    font-family: Integral CF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.border{
+    border-radius: 10px;
+}
+.but{
+    border-radius: 30px;
+    width: 100px;
+    
+}
+.headerLower{
+    padding-left: 0%;
+    padding-right: 0%;
+    width : 500px;
+}
+.headerlower2{
+    width : 100%;
+    height: 100%;
+    
+}
+
+.headerLower1{
+  background-color: rgb(238, 238, 243);
+}
+.topselling{
+    color: #000;
+text-align: center;
+font-family: Integral CF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.verticalLine{
+    border-left: 1px solid #000;
+    height: 80px;
+}
+.brand{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+.cloths{
+   height: 150px;
+   margin-left: 40px;
+   
+}
+.secondTshirt{
+    height: 350px;
+}
+.shirts{
+    height: 300px;
+}
+.cont{
+    background-color: rgb(213, 213, 226);
+    border-radius: 10px;
+    
+}
+.Casual{
+    color: #000;
+font-family: Satoshi;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* .image1{
+    background-image: url(/E-Comm/Images/casual.png);
+}
+.image2{
+    background-image: url(/E-Comm/Images/formal.png);
+}
+.image3{
+    background-image: url(/E-Comm/Images/party.png);
+    margin-bottom: 40px;
+}
+.image4{
+    background-image: url(/E-Comm/Images/gym.png);
+    margin-bottom: 40px;
+} */
+
+@media only screen and (max-width:420px){
+    .image1{
+        padding-top: 20px;
+    }
+    .image4{
+        padding-top: 20px;
+    }
+}
+.stay{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    color: white;
+    font-family: Integral CF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+.emailrow{
+    padding-top: 10%;
+    padding-left: 15%;
+}
+.input{
+    border-radius: 10px;
+    width: 70%;
+}
+.blue{
+    background-color: rgb(224, 224, 233);
+}
+
+.shp{
+    color: #000;
+
+font-family: Integral CF;
+font-size: 33.455px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.comp{
+    padding-top: 5%;
+    color: #000;
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.happyCustomer{
+    color: #000;
+font-family: Integral CF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/* margin-left: 100px; */
+margin-top: 30px;
+}
+.Sarah{
+    color: #000;
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+}
+
+.Alex{
+    color: #000;
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+}
+.James{
+    color: #000;
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+}
+.Browse{
+    padding-top: 30px;
+color: #000;
+text-align: center;
+font-family: Integral CF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.right{
+    height: 30px;
+    width: 30px;
+}
+.star{
+    height: 50px;
+    width: 100px;
+}
