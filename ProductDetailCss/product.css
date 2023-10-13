@@ -1,0 +1,202 @@
+.main {
+    padding-bottom: 20px;
+}
+
+.one-life {
+    color: #000;
+    font-family: Integral CF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.start1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 7.1px;
+}
+
+.num {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.num2 {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.price1 {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Satoshi;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+    padding-right: 20px;
+}
+
+.price2 {
+    color: #F33;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mainclass {
+    padding-left: 90px;
+}
+
+.graphic1 {
+    color: rgba(0, 0, 0, 0.60);
+    /* leading-trim: both; */
+    /* text-edge: cap; */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.colors {
+    color: rgba(0, 0, 0, 0.60);
+    /* leading-trim: both; */
+    /* text-edge: cap; */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.size {
+    color: rgba(0, 0, 0, 0.60);
+    /* leading-trim: both; */
+    /* text-edge: cap; */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.small {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 62px;
+    background: #F0F0F0;
+}
+
+.button5 {
+    border-radius: 50%;
+}
+
+.you {
+    padding-left: 30%;
+}
+
+.med {
+    padding-right: 10px;
+}
+
+.el1 {
+    padding-right: 10px;
+}
+
+.el2 {
+    padding-right: 10px;
+}
+
+.el3 {
+    padding-right: 10px;
+}
+
+.sml{
+    padding-right: 10px;
+}
+
+.med{
+    padding-right: 10px;
+}
+
+.lar{
+    padding-right: 10px;
+}
+
+.xlar{
+    padding-right: 10px;
+}
+
+.pd{
+    padding-left: 30%;
+    color: rgba(0, 0, 0, 0.60);
+/* leading-trim: both; */
+/* text-edge: cap; */
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 110% */
+}
+
+.rr{
+    padding-left: 5%;
+    color: #000;
+text-align: center;
+/* leading-trim: both; */
+/* text-edge: cap; */
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 110% */
+}
+
+.faq{
+    padding-right: 100px;
+color: rgba(0, 0, 0, 0.60);
+text-align: right;
+/* leading-trim: both; */
+/* text-edge: cap; */
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 110% */
+}
+
+.line{
+    width: 414px;
+height: 2px;
+padding-left: 133%;
+padding-bottom: 30px;
+padding-top: -5px;
+}
