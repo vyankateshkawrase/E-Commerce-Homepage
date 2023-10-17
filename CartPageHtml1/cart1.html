@@ -1,509 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap import -->
+    <title>Cart Page</title>
+<!-- Bootstrap import -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <!-- Css import -->
+<!-- Css import -->
 
-    <link rel="stylesheet" href="/Category css/Category.css">
+<link rel="stylesheet" href="/CartPageCss1/cart.css">
+
 </head>
-
 <body class="container-fluid">
+
     <!-- Top of the page -->
-    <div class="row text-center bg-dark text-light homeFirst">
-        <div class="col-lg-12 text-center bg-dark text-light homeFirst">
-            <h6>Sing up and get 20% off to your first order. <a href="">Sing up now</a><img src="/E-Comm/Icon/cross.svg"
-                    alt=""></h6>
-
+ <div class="row text-center bg-dark text-light homeFirst">
+       <div class="col-lg-12 text-center bg-dark text-light homeFirst">
+            <h6>Sing up and get 20% off to your first order. <a href="">Sing up now</a></h6>
         </div>
-    </div>
+ </div>
+
     <!-- nav bar -->
-
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-
-        <a class="navbar-brand shopcss" href="#"><b>SHOP.CO</b></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">On Sale</a>
-
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">New Arrival</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Brands</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Shop
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
+     
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            
+                <a class="navbar-brand shopcss" href="#"><b>SHOP.CO</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                            
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Arrival</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Brands</a>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-            <form class="d-flex" role="search" style="padding-right: 250px;">
-                <input class="form-control me-2 search" style="padding-right: 500px;" type="search"
-                    placeholder="Search for product" aria-label="Search">
-            </form>
-            <div>
-                <img src="/E-Comm/Icon/shop2.svg" class="icon img-fluid" alt="image">
-                <img src="/E-Comm/Icon/login2.svg" class="icon1 img-fluid" alt="image">
-            </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 search" type="search" placeholder="Search for product" aria-label="Search">
+                    </form>
+                    <img src="/Icon/shop2.svg" class="icon img-fluid"  alt="image">
+                    <img src="/Icon/login2.svg" class="icon1 img-fluid"  alt="image">
+                </div>     
+          </nav>
+
+<!-- Below Navbar -->
+
+<div class="container">
+
+    <div class="row" >
+
+      <div class="col-md-12" style="display: flex;">
+        <p class="home">Home <img src="/Icon/rightarrow.svg" class="right-arrow" alt=""></p>
+        <p class="home"><B>Cart</B> <img src="/Icon/rightarrow.svg" class="right-arrow" alt=""></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Middle Part of page -->
+
+  <div class="container">
+
+        <div class="row">
+           <p class="cart">YOUR CART</p>
         </div>
-
-    </nav>
-    <!-- Below Navbar -->
-
-    <div class="container">
 
         <div class="row">
 
-            <div class="col-md-12" style="display: flex;">
-                <p class="home">Home <img src="/E-Comm/Icon/rightarrow.svg" class="right-arrow" alt=""></p>
-                <p class="home"><B> &nbsp; Cart</B></p>
+            <!-- Left side of column -->
+           <div class="col-md-7" style="border: 0.2px solid black; border-radius: 10px;">
+
+              <div class="xyz">
+
+                 <div>
+                    <img src="/Images/image 1.png" style="border-radius: 10px;" alt="">
+                 </div>
+
+                 <div class="test">
+                    <p class="gard">Gradient Graphic T-shirt</p>
+                    <p class="size">Size: Large</p>
+                    <p class="size">Color: White</p>
+                    <p class="price">$145</p>
+                 </div>
+
+                 <div>
+                    <img src="/Icon/delete.svg" class="img1"><br>
+                    <button class="btn btn-light btn3"> - 1 + </button>
+                 </div>
+                
+              </div>
+
+              <div class="xyz">
+
+                <div>
+                   <img src="/Images/image 2.png" style="border-radius: 10px;" alt="">
+                </div>
+
+                <div class="test">
+                   <p class="gard">CHECKERED SHIRT</p>
+                   <p class="size">Size: Medium</p>
+                   <p class="size">Color: Red</p>
+                   <p class="price">$145</p>
+                </div>
+
+                <div>
+                   <img src="/Icon/delete.svg" class="img2"><br>
+                   <button class="btn btn-light btn4"> - 1 + </button>
+                </div>
+                  <hr>
+             </div>
+
+             <div class="xyz">
+
+                <div>
+                   <img src="/Images/image 3.png" style="border-radius: 10px;" alt="">
+                </div>
+
+                <div class="test">
+                   <p class="gard">SKINNY FIT JEANS</p>
+                   <p class="size">Size: Large</p>
+                   <p class="size">Color: White</p>
+                   <p class="price">$145</p>
+                </div>
+
+                <div>
+                   <img src="/Icon/delete.svg" class="img1"><br>
+                   <button class="btn btn-light btn3"> - 1 + </button>
+                </div>
+                 <hr>
+             </div>
+
+           </div>
+
+              <!-- Right side of column -->
+
+           <div class="col-md-5 col1">
+
+              <div class="row">
+                <p class="order">Order Summary</p>
+              </div>
+
+              <div class="row">
+                <div class="col-12" style="display: flex;">
+                   <p class="subtotal">Subtotal</p>
+                   <p class="doller">$565</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12" style="display: flex;">
+                   <p class="subtotal">Discount(-20%)</p>
+                   <p class="discount">-$113</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12" style="display: flex;">
+                   <p class="subtotal">Delivery fee</p>
+                   <p class="doller">$15</p>
+                </div>
+              </div>
+              <hr>
+               
+              <div class="row">
+                <div class="col-12" style="display: flex;">
+                   <p class="subtotal">Total</p>
+                   <p class="doller1">$467</p>
+                </div>
+              </div>
+              
+              <div class="row" style="margin-top: 30px;">
+                <div class="col-md-12" style="display: flex;">
+                   <input type="text" placeholder="Add a promo code" class="text bg-light">
+                   <button class="btn btn-dark btn5">Apply</button>
+                </div>
+              </div>
+               
+              <div class="row" style="margin-top: 30px;">
+                <div class="col-md-12">
+                    <button class="btn btn-dark btn6">Go to Checkout</button>
+                </div>
+              </div>
+
+           </div>
+
+        </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row bg-dark" style="border-radius: 10px;">
+        <div class="col-md-6">
+            <p class="stay">STAY UP TO DATE ABOUT OUR LATEST OFFER</p>
+        </div>
+
+        <div class="col-md-6">
+            <div class="row emailrow" >
+              <input type="email" placeholder="Enter your email" class="input">
+            </div>
+
+            <div class="row emailrow">
+              <button class="input">Subscribe to NewsLetter</button>
             </div>
         </div>
     </div>
-    <div>
-        <h5>
-            <p class="cart b-dark" style="margin-top:1%; padding-left: 70px; color: #000;
-                        font-family: Integral CF;
-                        font-size: 40px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;"><b>YOUR CART</b></p>
-        </h5>
+</div>
+
+<!-- footer Part -->
+
+<div class="container-fluid">
+
+    <div class="row blue">
+
+      <div class="col-md-2 offset-md-1">
+         <p class="shp">SHOP.CO</p>
+         <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+         <img src="/Icon/Social.svg" alt="">
+      </div>
+
+      <div class="col-md-2">
+        <p class="comp">COMPANY</p>
+        <p>About</p>
+        <p>Feature</p>
+        <p>Works</p>
+        <p>Carrier</p>
+      </div>
+
+      <div class="col-md-2">
+        <p class="comp">HELP</p>
+        <p>Customer Support</p>
+        <p>Delivery Details</p>
+        <p>Terms and Conditions</p>
+        <p>Privacy Policy</p>
+      </div>
+
+      <div class="col-md-2">
+        <p class="comp">FAQ</p>
+        <p>Account</p>
+        <p>Mange Deliveres</p>
+        <p>Orders</p>
+        <p>Payments</p>
+      </div>
+
+      <div class="col-md-2">
+        <p class="comp">RESOURCES</p>
+        <p>Free eBooks</p>
+        <p>Development tutorials </p>
+        <p>Hpw to - blog</p>
+        <p>YouTube PlayList</p>
+      </div>
+       <hr>
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+            <p class="comp">Shop.co © 2000-2023, All Rights Reserved</p>
+        </div>
+
+        <div class="col-md-4 offset-md-2">
+          <div class="row">
+
+            <div class="col-md-2">
+              <img src="/Icon/apple.svg" alt="">
+            </div>
+
+            <div class="col-md-2">
+                <img src="/Icon/gpay.svg" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="/Icon/mc.svg" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="/Icon/paypal.svg" alt="">
+              </div>
+
+              <div class="col-md-2">
+                <img src="/Icon/visa.svg" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="/E-Comm/Images/ctshirt1.png" style="width: 125px;
-                                    height: 150px; margin-left: 60px; border-radius: 20px;
-                                    margin-top: 20px;">
-                    </div>
-                    <div class="col-md-8" style="padding-left:20%;">
-                        <p style="color: #000;
+   
+</div>
 
-                        font-family: Satoshi;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;">Gradient Graphic T-shirt</p>
-                        <p style="color: #000;
-
-                        font-family: Satoshi;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;">Size: <i style="color: rgba(0, 0, 0, 0.60);
-                        font-family: Satoshi;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;">Large</i></p>
-                        <p style="color: #000;
-
-                        font-family: Satoshi;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;">Color: <i style="color: rgba(0, 0, 0, 0.60);
-                        font-family: Satoshi;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;">White</i></p>
-                        <p style="color: #000;
-
-                        font-family: Satoshi;
-                        font-size: 24px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;"><b>$145</b></p>
-
-                    </div>
-
-                    <div class="col-md-2 ">
-                        <IMG src="/E-Comm/Icon/delete.svg">
-                        <br>
-                        <br>
-                        <br><br><br>
-                        <br>
-                        <button style="border-radius: 20px;">-&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp;&nbsp;+</button>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top: 20px;">
-                    <div class="col-md-2">
-                        <img src="/E-Comm/Images/check_shirt.png" style="width: 125px;
-                                    height: 150px; margin-left: 60px; border-radius: 20px;">
-
-                    </div>
-                    <div class="col-md-8" style="padding-left:20%;">
-                        <p style="color: #000;
-    
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal; ">CHECKERED SHIRT</p>
-                        <p style="color: #000;
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;"> Size: <i style="color: rgba(0, 0, 0, 0.60);
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;">Large</i></p>
-                        <p style="color: #000;
-
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;">Color: <i style="color: rgba(0, 0, 0, 0.60);
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;">Red</i></p>
-                        <p style="color: #000;
-
-                            font-family: Satoshi;
-                            font-size: 24px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal;"><b>$180</b></p>
-
-                    </div>
-
-                    <div class="col-md-2 ">
-                        <IMG src="/E-Comm/Icon/delete.svg">
-                        <br>
-                        <br>
-                        <br><br><br>
-                        <br>
-                        <button style="border-radius: 20px;">-&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp;&nbsp;+</button>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 20px;">
-                    <div class="col-md-2">
-                        <img src="/E-Comm/Images/black_jeans.png" style="width: 125px;
-                                    height: 150px; margin-left: 60px; border-radius: 20px;">
-
-                    </div>
-                    <div class="col-md-8" style="padding-left:20%;">
-                        <p style="color: #000;
-        
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal;">S<i style="color: #000;
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal;
-                            text-transform: lowercase;">kinny Fit Jeans</i></p>
-                        <p style="color: #000;
-
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;">Size: <i style="color: rgba(0, 0, 0, 0.60);
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;">Large</i></p>
-                        <p style="color: #000;
-
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;">Color: <i style="color: rgba(0, 0, 0, 0.60);
-                            font-family: Satoshi;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;">Blue</i></p>
-                        <p style="color: #000;
-
-                            font-family: Satoshi;
-                            font-size: 24px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal;"><b>$240</b></p>
-
-                    </div>
-
-                    <div class="col-md-2 ">
-                        <IMG src="/E-Comm/Icon/delete.svg" style="margin-right:30%;">
-                        <br>
-                        <br>
-                        <br><br><br>
-                        <br>
-                        <button style="border-radius: 20px;">-&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp;&nbsp;+</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <p style="margin-left: 30%; margin-top:10px ; color: #000;
-                    font-family: Satoshi;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: normal;">Order Summery</p>
-
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <p style="color: rgba(0, 0, 0, 0.60);
-
-                        font-family: Satoshi;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal; margin-left: 20%; margin-top: 10%;">Subtotal</p>
-
-                    </div>
-                    <div class="col-md-6" style="padding-left:10%;">
-                        <p style="color: #000;
-                        text-align: right;
-                        font-family: Satoshi;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal; margin-right: 40.5%; margin-top: 10%; ">$565</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p style="color: rgba(0, 0, 0, 0.60);
-                        font-family: Satoshi;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal; margin-left: 20%;">Discount(-20%)</p>
-
-                        </div>
-                        <div class="col-md-6" style="padding-left:10%;">
-                        <p style="color: #000;
-    
-                            text-align: right;
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal; margin-right: 30%; color: red; ">$-113</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p style="color: rgba(0, 0, 0, 0.60);
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal; margin-left: 20%;">Dilevery Fees</p>
-                        </div>
-                        <div class="col-md-6" style="padding-left:10%;">
-                            <p style="color: #000;
-                            text-align: right;
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal; margin-right:37%; "> $12</p>
-                        </div>
-                    </div>
-                    <hr width="80%">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p style="color: rgba(0, 0, 0, 0.60);
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal; margin-left: 20%;">Total</p>
-                        </div>
-                        <div class="col-md-6" style="padding-left:10%;">
-                            <p style="color: #000;
-                            text-align: right;
-                            font-family: Satoshi;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal; margin-right:33%; ">$467</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <button style="color: rgba(0, 0, 0, 0.40);
-                            font-family: Satoshi;
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;margin-left: 20%; border-radius: 20px; width: 100%; height:30px ;">Add promo code</button>
-                        </div>
-                        <div class="col-md-6">
-                            <button style="color: #FFF;
-                            font-family: Satoshi;
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: normal; margin-left:20%; width: 60%; border-radius: 20px; height:30px ; "
-                                class="bg-dark">Apply</button>
-                        </div>
-                    </div>
-                    <button class="bg-dark " style="border-radius: 62px;
-                            color: #FFF;
-                            height: 60px;
-                            padding: 16px 54px;
-                            justify-content: center;
-                            align-items: center;
-                            gap: 12px;
-                            flex-shrink: 0;
-                            align-self: stretch;margin-top: 20Px  ; width: 80%; margin-left: 50px; ">Checkout > </button>
-                    <div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-5">
-            <div class="row bg-dark"
-                style="border-radius: 20px; display: flex; width: 1300px; padding: 36px 64px; justify-content: space-between;">
-                <div class="col-md-6">
-                    <h2 class="stay" style="color: #FFF;
-                    font-family: Integral CF;
-                    font-size: 40px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 45px; /* 112.5% */">STAY UPTO DATE ABOUT<br>OUR LATEST OFFER</h2>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="row emailrow" style="padding-bottom: 15px; padding-left: 350px;">
-                        <input type="email" placeholder="Enter your email" class="input"
-                            style="border-radius: 20px; width: 300px; height: 40px; ">
-                    </div>
-
-                    <div class="row emailrow" style="padding-left: 350px;">
-                        <button class="input" style="border-radius: 20px; width: 300px; height: 40px;">Subscribe to
-                            NewsLetter</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- footer Part -->
-
-        <div class="container-fluid">
-
-            <div class="row blue" style="padding-top: 20px;">
-
-                <div class="col-md-2 offset-md-1">
-                    <h1 class="shp"><b>SHOP.CO</b></h1>
-                    <p>We have clothes that suits your style and which youre proud to wear. From women to men.</p>
-                    <img src="/E-Comm/Icon/Social.svg" alt="">
-                </div>
-
-                <div class="col-md-2">
-                    <p class="comp"><b>COMPANY</b></p>
-                    <p>About</p>
-                    <p>Feature</p>
-                    <p>Works</p>
-                    <p>Carrier</p>
-                </div>
-
-                <div class="col-md-2">
-                    <p class="comp"><b>HELP</b></p>
-                    <p>Customer Support</p>
-                    <p>Delivery Details</p>
-                    <p>Terms and Conditions</p>
-                    <p>Privacy Policy</p>
-                </div>
-
-                <div class="col-md-2">
-                    <p class="comp"><b>FAQ</b></p>
-                    <p>Account</p>
-                    <p>Manage Deliveries</p>
-                    <p>Orders</p>
-                    <p>Payments</p>
-                </div>
-
-                <div class="col-md-2">
-                    <p class="comp"><b>RESOURCES</b></p>
-                    <p>Free eBooks</p>
-                    <p>Development tutorials </p>
-                    <p>How to - blog</p>
-                    <p>YouTube PlayList</p>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-5 offset-md-1">
-                        <p class="comp">Shop.co © 2000-2023, All Rights Reserved</p>
-                    </div>
-
-                    <div class="col-md-4 offset-md-2">
-                        <div class="row">
-
-                            <div class="col-md-2">
-                                <img src="/E-Comm/Icon/visa.svg" alt="">
-                            </div>
-
-                            <div class="col-md-2">
-                                <img src="/E-Comm/Icon/mc.svg" alt="">
-                            </div>
-
-                            <div class="col-md-2">
-                                <img src="/E-Comm/Icon/paypal.svg" alt="">
-                            </div>
-
-                            <div class="col-md-2">
-                                <img src="/E-Comm/Icon/apple.svg" alt="">
-                            </div>
-
-                            <div class="col-md-2">
-                                <img src="/E-Comm/Icon/gpay.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap javascript   -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-            crossorigin="anonymous"></script>
 </body>
-
 </html>

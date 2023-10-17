@@ -1,0 +1,253 @@
+/* Nav Bar */
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+.icon1{
+    height: 40px;
+    width: 40px;
+}
+.homeFirst{
+    height: 30px;
+    padding-top: 1px;
+}
+.search{
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+/* Below Navbar */
+
+.home{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+    .right-arrow{
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Middle part of page */
+
+.cart{
+color: #000;
+font-family: Integral CF;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.gard{
+color: #000;
+font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.size{
+color: #000;
+font-family: Satoshi;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.price{
+color: #000;
+font-family: Satoshi;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.img1{
+    padding-left: 30rem;
+}
+.img2{
+    padding-left: 28rem;
+}
+.btn3{
+    margin-top: 5rem;
+    margin-left: 27rem;
+    border-radius: 20px;
+}
+.btn4{
+    margin-top: 5rem;
+    margin-left: 25rem;
+    border-radius: 20px;
+}
+.xyz{
+    display: flex;
+}
+.test{
+    padding-left: 1rem;
+}
+
+@media (max-width : 480px){
+  
+    .size{
+        font-size: 0.9rem;
+    }
+    .price{
+        font-size: 0.9rem;
+    }
+    .test{
+        padding-left: 1rem;
+    }
+    .img1{
+        padding-left: 3.8rem;
+    }
+    .btn3{
+       
+        margin-left: 1.5rem;
+     }
+     .img2{
+        padding-left: 3.8rem;
+    }
+    .btn4{
+       
+        margin-left: 1.5rem;
+     }
+}
+
+/* Right Side of Column */
+
+.col1{
+    border: 1px solid gray; 
+    border-radius: 10px;
+}
+.order{
+color: #000;
+font-family: Satoshi;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.doller{
+margin-left: 80%;
+color: #000;
+text-align: right;
+font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.subtotal{
+color: rgba(0, 0, 0, 0.60);
+font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.discount{
+color: #F33;
+text-align: right;
+font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 67%;
+}
+.text{
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+}
+.btn5{
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 150px;
+}
+.btn6{
+    border-radius: 20px;
+    width:520px ;
+}
+.col1{
+    height: 450px;
+    width: 545px;
+    margin-left: 2px;
+}
+.doller1{
+margin-left: 84%;
+color: #000;
+text-align: right;
+font-family: Satoshi;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@media (max-width : 480px){
+    .doller{
+        margin-left: 72%;
+    }
+    .doller1{
+        margin-left: 79%;
+    }
+    .discount{
+        margin-left: 53%;
+    }
+    .btn6{
+        width: 375px;
+    }
+    .col1{
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* Footer part */
+
+.stay{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    color: white;
+    font-family: Integral CF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+.emailrow{
+    padding-top: 10%;
+    padding-left: 15%;
+}
+.input{
+    border-radius: 10px;
+    width: 70%;
+}
+.shp{
+    color: #000;
+    font-family: Integral CF;
+    font-size: 33.455px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.comp{
+    padding-top: 5%;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+} 
+.blue{
+   background-color: rgb(224, 224, 233);
+ }
