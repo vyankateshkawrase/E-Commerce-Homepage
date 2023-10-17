@@ -124,7 +124,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.image1{
+/* .image1{
     background-image: url(/Images/Casual.png);
 
 }
@@ -138,17 +138,17 @@ line-height: normal;
 }
 .image4{
     background-image: url(/Images/gym.png);
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px; */
+/* } */
 
-@media only screen and (max-width:420px){
+/* @media only screen and (max-width:420px){
     .image1{
         padding-top: 20px;
     }
     .image4{
         padding-top: 20px;
     }
-}
+} */
 .stay{
     padding-top: 10%;
     padding-left: 5%;

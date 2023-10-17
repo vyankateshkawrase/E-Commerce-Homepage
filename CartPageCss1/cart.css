@@ -46,7 +46,7 @@ line-height: normal;
 .gard{
 color: #000;
 font-family: Satoshi;
-font-size: 1.25rem;
+font-size: 1rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -67,6 +67,13 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+.ctshirt1{
+    width: 125px;
+height: 187px;
+flex-shrink: 0;
+}
+
 .img1{
     padding-left: 30rem;
 }
@@ -120,8 +127,8 @@ line-height: normal;
 /* Right Side of Column */
 
 .col1{
-    border: 1px solid gray; 
-    border-radius: 10px;
+    border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
 }
 .order{
 color: #000;
@@ -249,5 +256,5 @@ line-height: normal;
     text-transform: uppercase;
 } 
 .blue{
-   background-color: rgb(224, 224, 233);
+   /* background-color: rgb(224, 224, 233); */
  }
