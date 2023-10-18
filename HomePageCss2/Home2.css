@@ -113,9 +113,14 @@ line-height: normal;
 }
 .cont{
     background-color: rgb(213, 213, 226);
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
+
+/* @media only screen and (max-width:120px){
+    .cont{
+        width: 50px;
+    }
+} */
 .Casual{
     color: #000;
 font-family: Satoshi;
@@ -159,6 +164,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 700;
     line-height: 45px;
+    display: flex;
 }
 
 .emailrow{
